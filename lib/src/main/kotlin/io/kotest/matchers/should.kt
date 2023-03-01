@@ -9,7 +9,8 @@ import io.kotest.assertions.assertionCounter
 import io.kotest.assertions.failure
 
 
-public fun shouldNotBeExecuted() {
-    assertionCounter.inc()
-    failure("Unexpected execution encountered")
-}
+// Uncomment to get error
+//fun shouldNotBeExecuted() {
+//    assertionCounter.inc()
+//    failure("Unexpected execution encountered")
+//}

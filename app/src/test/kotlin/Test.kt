@@ -1,5 +1,5 @@
 import io.kotest.core.spec.style.FreeSpec
-import io.kotest.matchers.shouldBe
+import io.kotest.matchers.shouldBe // Unresolved reference: shouldBe
 
 class Test : FreeSpec({
     "test" {

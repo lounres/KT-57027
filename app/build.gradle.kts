@@ -9,7 +9,7 @@ kotlin {
         val test by getting {
             dependencies {
                 implementation(kotlin("test"))
-                implementation(projects.lib)
+//                implementation(projects.lib) // Uncomment to get error
                 with(rootProject.libs.kotest) {
                     implementation(framework.engine)
                     implementation(framework.datatest)
